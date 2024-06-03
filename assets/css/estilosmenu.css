@@ -1,0 +1,66 @@
+:root {
+    --primary: white;  
+    --light: rgba(247, 95, 34);
+    --grey: rgb(236, 22, 7); 
+    --gricesito: rgb(197, 197, 245); 
+
+}
+
+body{
+    overflow: hidden;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: var(--primary);
+}
+
+
+
+.bg-primary {background-color: var(--grey) !important;}
+.bg-light { background-color: var(--light) !important;}
+.bg-mix { background: linear-gradient(180deg, var(--gricesito) 50%, var(--grey 0));}
+.bg-grey{ background-color: var(--gricesito)!important;}
+
+.btn {
+    border: 0;
+}
+.btn-primary {
+    position: absolute;
+    right: 50px;
+    top: 100px;
+}
+
+.btn-primary:hover{
+  background-color: var(--light) !important;  
+}
+
+#sidebar-container {
+    min-height: 100vh;
+    min-width: 50vh;
+
+}
+
+#sidebar-container .logo{
+    padding: .875rem 1.25rem;
+}
+
+#sidebar-container .menu{
+    width: 18rem;
+;}
+
+.btn-search {
+    right: 5px;
+}
+
+.avatar {
+    max-width: 35px !important; 
+}
+
+#content {
+    overflow-y: auto;
+    height: 100wh;
+    padding-bottom: 5rem;
+}
+
+.stat {
+    border-right: 1px solid var(--gricesito);
+}
